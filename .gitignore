@@ -1,0 +1,15 @@
+# Python cache files
+__pycache__/
+*.pyc
+
+# Environment variable files
+.env
+
+# Audio files
+*.mp3
+*.mp4
+
+
+
+
+venv/
