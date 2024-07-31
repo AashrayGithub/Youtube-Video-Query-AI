@@ -9,7 +9,7 @@ import assemblyai as aai
 
 # Load environment variables
 load_dotenv()
-ASSEMBLY_AI_API_KEY = 'os.getenv('ASSEMBLY_AI_API_KEY')
+ASSEMBLY_AI_API_KEY = os.getenv('ASSEMBLY_AI_API_KEY')
 OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 
 # Set API keys for AssemblyAI and OpenAI
